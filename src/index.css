@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+
+body {
+  background: #f40bfc;
+  background-image: url("./assets/cool.webp");
+  background-position: bottom bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* ======GlassUI */
+.glass-effect {
+  background: rgba(240, 236, 236, 0.873);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(4px);
+  border: none
+}
+
+.glass-effect-light {
+  background: rgba(244, 241, 241, 0.866);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(3px);
+  border: 1px dotted rgba(44, 41, 41, 0.068);
+}
+
+
+.bg-gradient {
+  background: #f50742;
+  background: linear-gradient(to bottom right, #04e2ff 40%, #f40bfc 75%);
+}
+.gradient-logo {
+  background: #f50742;
+  background: linear-gradient(to bottom right, #04e2ff 40%, #f40bfc 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
