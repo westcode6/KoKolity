@@ -13,8 +13,8 @@ export default function BottomBar() {
 
   return (
   <>
-  <div className="w-full relative">
-  <footer className="w-[95%] max-w-3xl mx-auto fixed bottom-0 sm:hidden glass-effect" >
+  <div className="w-full sticky bottom-0 z-50 ">
+  <footer className="glass-effect  w-full sm:hidden " >
    
    <div className="flex  items-center justify-between">
      <NavItem
@@ -61,7 +61,7 @@ function NavItem({ title, to = "#", icon, active }) {
         active ? "text-neutral-900 font-bold text-sm" : "text-white text-xs"
       } px-6 py-2 flex flex-col items-center justify-center text-xs tracking-wider`}
     >
-      <span className={`${active ? "bg-gradient p-1 rounded-lg block" : "text-neutral-500"} glass-effect shadow-2xl`}>
+      <span className={`${active ? "bg-gradient shadow-lg text-white p-1 rounded-lg block" : "text-neutral-500"}`}>
         {icon}
       </span>
       <span
