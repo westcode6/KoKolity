@@ -22,7 +22,7 @@ export const Navbar = () => {
                 <div className="flex items-center justify-start gap-2">
                   <div className="">
                     <img
-                      src="./src/assets/westa.jpg"
+                      src="/assets/westa.jpg"
                       alt="westa"
                       className="w-8 h-8 mr-2 md:mr-0 rounded-full"
                     />
@@ -67,7 +67,7 @@ export const Navbar = () => {
                   <div className="flex items-center gap-4">
                     <div>
                       <img
-                        src="./src/assets/westa.jpg"
+                        src="/assets/westa.jpg"
                         alt="westa"
                         className="w-8 h-8 mr-2 md:mr-0 rounded-full"
                       />
