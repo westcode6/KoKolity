@@ -6,7 +6,7 @@ import { styles } from "../../styles";
 function CardWrapper({ cardTitle, children }){
     return (
       <>
-        <section className="w-full px-4 pb-2 rounded-3xl shadow-xl">
+        <section className="w-full px-4 py-3 mb-3 rounded-3xl glass-effect shadow border ">
           <div className="flex items-center justify-between">
           <h2 className={`${styles.headText}`}>{cardTitle}</h2>
 
@@ -15,7 +15,7 @@ function CardWrapper({ cardTitle, children }){
           </Link>
           </div>
   
-          <div className="w-full flex gap-3 shadow-sm items-start overflow-x-scroll">
+          <div className="w-full flex  shadow-sm items-start overflow-x-scroll">
           {children}
           </div>
         </section>

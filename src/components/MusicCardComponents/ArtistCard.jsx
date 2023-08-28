@@ -9,11 +9,11 @@ import { fadeIn } from "../../utils/motion";
           // animation pattern
           className=""
         >
-          <div className="w-32 md:w-44 glass-effect shadow-xl rounded-xl transform transition ease-in hover:-translate-y-1">
+          <div className="w-32 md:w-44 glass-effect rounded-2xl  transform transition ease-in duration-100 hover:-translate-x-1 p-2 border-2 border-neutral-900  shadow-xl shadow-neutral-300 m-1">
             <img
               src={albumCover}
               alt="banner"
-              className="w-full h-16 object-cover rounded-xl"
+              className="w-full h-24 object-center object-cover rounded-xl"
             />
   
             <div className="w-full h-fit flex flex-col items-start justify-start p-2">

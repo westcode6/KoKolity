@@ -12,7 +12,7 @@ export default function BottomBar() {
   const location = useLocation();
 
   return (
-    <footer className="w-[100%] fixed bottom-0 sm:hidden max-w-3xl mx-auto left-0 right-0 z-20  glass-effect shadow-xl">
+    <footer className="w-[95%] max-w-3xl mx-auto fixed bottom-0 sm:hidden glass-effect" >
    
       <div className="flex  items-center justify-between">
         <NavItem

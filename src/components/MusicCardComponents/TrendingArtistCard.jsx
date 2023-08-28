@@ -13,7 +13,7 @@ export const TrendingArtistCard = ({ artistName, songTitle, albumCover }) => {
         // animation pattern
         className=" rounded-2xl"
       >
-        <div className="w-48 md:w-60 glass-effect border rounded-2xl mb-3 p-2 flex items-start md:items-center justify-start">
+        <div className="w-48 md:w-60  border rounded-2xl mb-3 p-2 flex items-start md:items-center justify-start">
           <img
             src={albumCover}
             alt="banner"

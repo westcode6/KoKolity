@@ -8,7 +8,7 @@ import { staggerContainer } from '../utils/motion'
 const SectionWrapper = (Component, idName) => function HOC() {
     return (
        <>
-       <div className='w-full glass-effect h-full'>
+       <div className='w-full glass-effect'>
        <motion.section 
         variants={staggerContainer()}
         initial= "hidden"
