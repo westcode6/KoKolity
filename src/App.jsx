@@ -6,7 +6,7 @@ import {Navbar  }from "./components/Navbar";
 import BottomBar from "./components/BottomNav";
 import { Discover } from "./pages/discover";
 import { Albulms } from "./pages/albums";
-// import { MyLibrary } from "./pages/myLibrary";
+import { myLibrary } from "./pages/myLibrary";
 function App() {
   return (
     <>
@@ -23,7 +23,7 @@ function App() {
                   <Route path="/discover" element={<Discover />} />
                   <Route path="/album" element={<Albulms />} />
 
-                  {/* <Route path="/myLibrary" element={<MyLibrary />} /> */}
+                  <Route path="/myLibrary" element={<myLibrary />} />
                 </Routes>
 
               </div>
