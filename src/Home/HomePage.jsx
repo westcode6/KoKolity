@@ -152,7 +152,7 @@ const HomePage = () => {
               </div>
             </nav>
           </div>
-          <div className="w-full col-span-12 lg:col-span-9 rounded-3xl md:mb-20">
+          <div className="w-full col-span-12 lg:col-span-9 rounded-3xl md:pb-20">
             {/* Diverder 2 cols */}
             <div>
               <div className="w-full px-3">
