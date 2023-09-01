@@ -6,7 +6,7 @@ import { styles } from "../../styles";
 function CardWrapper({ cardTitle, children }) {
   return (
     <>
-      <section className="w-full px-4 py-3 mb-3  shadow-lg rounded-3xl">
+      <section className="w-full px-4 py-3 mb-3 glass-effect  shadow-lg rounded-3xl">
         <div className="flex items-start justify-between">
           <h2 className={`${styles.headText}`}>{cardTitle}</h2>
 

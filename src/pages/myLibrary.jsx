@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const myLibrary = () => {
+export const MyLibrary = () => {
   return (
   <>
  <div className="glass-effect p-4 h-screen flex items-center justify-center">

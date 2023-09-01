@@ -12,145 +12,15 @@ import { ArtistCard } from "../components/MusicCardComponents/ArtistCard";
 import { AdsBanner } from "../components/MusicCardComponents/AdsBanner";
 import { PlayListCard } from "../components/MusicCardComponents/PlayListCard";
 import Trending from "../components/MusicCardComponents/Trending";
+import SideBar from "../components/Sidebar";
 
 const HomePage = () => {
   return (
     <>
       <div className="w-full relative mt-4">
         <section className="w-full md:rounded-2xl grid grid-cols-1 md:grid-cols-12 md:gap-6">
-          <div className="hidden md:block col-span-3">
-            <nav className=" glass-effect  md:flex flex-col items-center rounded-3xl py-4 ">
-
-              <p className="gradient-logo text-base font-semibold">Coming Soon</p>
-              <ul className="w-full px-6 hidden capitalize">
-                <li className="mt-2 py-3  bg-white shadow-xl shadow-zinc-400/50  text-black transform transition ease-in duration-100 font-extrabold hover:font-bold rounded-lg">
-                  <a
-                    href="/watchPage"
-                    className="flex justify-start space-x-8 px-2 items-center ml-4"
-                  >
-                    <span className="text-xl text-red-500">
-                      {" "}
-                      <RiFootballLine />
-                    </span>
-                    <span className="text-base">Soccer</span>
-                  </a>
-                </li>
-
-                <li className="watchPageSideNavLinks">
-                  <a
-                    href="/watchPage"
-                    className="flex justify-start space-x-8 px-2 items-center ml-4"
-                  >
-                    <span className="text-xl text-red-500">
-                      <IoIosTennisball />
-                    </span>
-                    <span className="text-base">Tennis</span>
-                  </a>
-                </li>
-
-                <li className="watchPageSideNavLinks">
-                  <a
-                    href="/watchPage"
-                    className="flex justify-start space-x-8 px-2 items-center ml-4"
-                  >
-                    <span className="text-xl text-red-500">
-                      <GiBasketballBall />
-                    </span>
-                    <span className="text-base">Basketball</span>
-                  </a>
-                </li>
-
-                <li className="watchPageSideNavLinks">
-                  <a
-                    href="/watchPage"
-                    className=" flex justify-start  space-x-8 px-2 items-center ml-4"
-                  >
-                    <span className="text-xl text-red-500">
-                      <FaVolleyballBall />
-                    </span>
-                    <span className="text-base">Volleyball</span>
-                  </a>
-                </li>
-
-                <li className="watchPageSideNavLinks">
-                  <a
-                    href="/watchPage"
-                    className=" flex justify-start  space-x-8 px-2 items-center ml-4"
-                  >
-                    <span className="text-xl text-red-500">
-                      <GiHockey />
-                    </span>
-                    <span className="text-base">Ice Hockey</span>
-                  </a>
-                </li>
-
-                <li className="watchPageSideNavLinks">
-                  <a
-                    href="/watchPage"
-                    className=" flex justify-start  space-x-8 px-2 items-center ml-4"
-                  >
-                    <span className="text-xl text-red-500">
-                      <FaTableTennis />
-                    </span>
-                    <span className="text-base">Table Tennis</span>
-                  </a>
-                </li>
-
-                <li className="watchPageSideNavLinks">
-                  <a
-                    href="/watchPage"
-                    className="flex justify-start 
-                              space-x-8 px-2 items-center ml-4"
-                  >
-                    <span className="text-xl text-red-500">
-                      <BsFilePlayFill />
-                    </span>
-                    <span className="text-base">Shorts</span>
-                  </a>
-                </li>
-
-                <li className="watchPageSideNavLinks">
-                  <a
-                    href="/watchPage"
-                    className="flex justify-start space-x-8 px-2 items-center ml-4"
-                  >
-                    <span className="text-xl text-red-500">
-                      <HiSpeakerphone />
-                    </span>
-                    <span className="text-base">Commentary</span>
-                  </a>
-                </li>
-              </ul>
-
-              <div className="px-6 mt-auto">
-                <div className="watchPageSideNavLinks">
-                  <a
-                    href="/watchPage"
-                    className="w-full flex justify-start space-x-6 items-center"
-                  >
-                    <span className="ml-4 text-xl text-red-500">
-                      {/* <MdSpeakerNotes /> */}
-                    </span>
-                    <span className="text-base pr-2 font-bold">
-                      Send Feedback
-                    </span>
-                  </a>
-                </div>
-
-                {/* <li className="mt-2 py-3  bg-white drop-shadow-xl shadow-xl shadow-zinc-400/50  text-black transform transition ease-in duration-100 font-extrabold hover:font-bold rounded-3xl">
-                <a
-                  href="/watchPage"
-                  className="flex justify-start space-x-8 px-2 items-center ml-4"
-                >
-                  <span className="text-xl text-red-500 font-black ">
-                    {" "}
-                    <HiSpeakerphone />
-                  </span>
-                  <span className="text-base">Commentary</span>
-                </a>
-              </li> */}
-              </div>
-            </nav>
+          <div className="col-span-3">
+              <SideBar />
           </div>
           <div className="w-full col-span-12 lg:col-span-9 rounded-3xl md:pb-20">
             {/* Diverder 2 cols */}
@@ -198,7 +68,7 @@ const HomePage = () => {
                 </div>
 
                 <div className="hidden md:block w-full col-span-4">
-                  <div className="p-4">
+                  <div className="pl-4 pt-4 flex items-end justify-end">
                     <CardWrapper cardTitle={"Playlist"}>
                       <div className="w-full grid grid-cols-2  gap-3">
                         <PlayListCard

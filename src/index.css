@@ -26,14 +26,14 @@ body {
 
 /* ======GlassUI */
 .glass-effect {
-  background: rgba(255, 255, 255, 0.917);
+  background: rgba(255, 255, 255, 0.939);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(4px);
   border: none
 }
 
 .glass-effect-light {
-  background: rgba(244, 241, 241, 0.866);
+  background: rgba(244, 241, 241, 0.91);
   -webkit-backdrop-filter: blur(7px);
   backdrop-filter: blur(3px);
   border: 1px dotted rgba(44, 41, 41, 0.068);

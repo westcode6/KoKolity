@@ -28,15 +28,15 @@ export default function BottomBar() {
        title="Discover"
        to="/discover"
        icon={<SiAirplayaudio className="text-lg" />}
-       active={location.pathname === "/newsPage"}
+       active={location.pathname === "/discover"}
      />
       
 
      <NavItem
        title="Album"
-       to="/album"
+       to="/albums"
        icon={<HiOutlineCollection className="text-lg" />}
-       active={location.pathname === "/watchPage"}
+       active={location.pathname === "/albums"}
      />
 
 <NavItem
